@@ -4,6 +4,23 @@ from bs4 import BeautifulSoup
 import sys
 import proxyip
 import socket
+"""
+作者：LeonTian
+行业：会计
+年龄：23
+学习编程时间：2016年11月26日至今
+介绍项目：
+1.完成了网页的解析
+2.加入了自动获得代理ip的反爬程序
+3.对网页访问超时进行了处理
+
+后续功能：
+1.对爬取文章进行数据挖掘与分析
+2.生成词云
+
+学习感受：通过这种有时间限制的项目，我对python又有了更多的认识，
+对很多模块又有了更多掌握。希望还有更多的这类活动。
+"""
 
 reload(sys)
 sys.setdefaultencoding('utf-8')
